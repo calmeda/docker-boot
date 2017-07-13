@@ -1,4 +1,4 @@
-deplyoment:
+deployment:
 	dockerhub:
 		branch: master
 		commands:
