@@ -1,4 +1,4 @@
 deployment:
 dockerhub:
 branch: master
-commands:$DOCKER_HUB_TRIGGER
+commands: - curl -H "Content-Type: application/json" --data '{"build":true}' -X POST https://registry.hub.docker.com/u/kitalmeda/docker-boot/trigger/2d5b9f09-d7ea-4a5f-ae08-0c9250ac52ce/
