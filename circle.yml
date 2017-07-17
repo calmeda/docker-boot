@@ -1,4 +1,5 @@
 deployment:
 hub:
 branch: master
-commands:- $DOCKER_HUB_TRIGGER
+commands:
+  - $DOCKER_HUB_TRIGGER
