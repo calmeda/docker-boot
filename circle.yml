@@ -1,4 +1,4 @@
-deployment:
-dockerhub:
+deploymen:
+hub:
 branch: master
 commands: - $DOCKER_HUB_TRIGGER
